@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    " rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="#" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" charset="UTF-8"
+        href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.26tY-h6gH9w.L.W.O/am=DAY/d=0/rs=AN8SPfrCcgxoBri2FVMQptvuOBiOsolgBw/m=el_main_css">
+
+
+    <!-- font awesome icones cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- icones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- bootstraps icones -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <!-- imagem -->
+    <section class="top-header">
+        <div class="interface">
+            <div class="logotipo">
+                <a href="#">
+                    <img src="Imagem-CRF-AP.png" alt="logotipo">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- imagem fim -->
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="/index.html">
+                <i class="bi bi-house"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h2>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <!-- DIV MÃE DOS ELEMENTOS DO HEADER -->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+
+                        <!-- item 2 -->
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link mx-lg dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ELEIÇÕES
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="/ELEIÇÕES/2023.html">Eleições 2023</a></li>
+                                <li><a class="dropdown-item" href="/ELEIÇÕES/2021.html">Eleições 2021</a></li>
+                                <li><a class="dropdown-item" href="/ELEIÇÕES/2019.html">Eleições 2019</a></li>
+                                <li><a class="dropdown-item" href="/ELEIÇÕES/2017.html">Eleições 2017</a></li>
+                                <li><a class="dropdown-item" href="/ELEIÇÕES/2015.html">Eleições 2015</a></li>
+
+
+                            </ul>
+                        </li>
+                        <!-- item 3 -->
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link mx-lg dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                FISCALIZAÇÃO
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="/FISCALIZAÇÃO/RFM.html">RFM- Relatório Mensal de
+                                        Fiscalização</a></li>
+                                <li><a class="dropdown-item" href="/FISCALIZAÇÃO/RFM.html">RAF- Relatório Anual de
+                                        Fiscalização</a></li>
+
+                            </ul>
+                        </li>
+                        <!-- item 4 -->
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link mx-lg dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">
+                                SERVIÇÕES EMPRESARIAL
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item"
+                                        href="/SERVIÇÕES EMPRESARIAL/Cancelamento.html">Cancelamento de Registro <br> de
+                                        Pessoa Jurídica</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/SERVIÇÕES EMPRESARIAL/Inscrição.html">Inscrição de
+                                        Pessoa Jurídica</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/SERVIÇÕES EMPRESARIAL/Requerimento.html">Requerimento de Defesa <br> de
+                                        Auto de Infração</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="/SERVIÇÕES EMPRESARIAL/Transferência.html">Transferência de RT <br> entre
+                                        Matriz/Filial</a></li>
+                                <li><a class="dropdown-item" href="/SERVIÇÕES EMPRESARIAL/Baixa.html">Baixa de
+                                        Responsabilidade <br> Técnica</a></li>
+                                <li><a class="dropdown-item" href="/SERVIÇÕES EMPRESARIAL/Solicitação.html">Solicitação
+                                        de Parcelamento <br> de Débito</a></li>
+                                <li><a class="dropdown-item" href="/SERVIÇÕES EMPRESARIAL/Declaração..html">Declaração
+                                        de Atividade <br> Profissional (DAP)</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                        <!-- item 5 -->
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link mx-lg dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PORTAL DA TRANSPARÊNCIA
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Proteção de Dados Pessoais</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=" nav-link mx-lg dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                OUVIDORIA
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="/OUVIDORIA/e-OUV.html">e-OUV</a></li>
+                                <li><a class="dropdown-item" href="/OUVIDORIA/e-SIC.html">e-SIC</a></li>
+                                <li>
+                            </ul>
+                        </li>
+                        <!-- Divisão -->
+                        <hr class="dropdown-divider">
+                        <!-- icones lupa -->
+                        <!-- <i class="bi bi-search"></i> -->
+                        <!-- <div>
+                            <form class="d-flex d-lg-none" role="search"  style="padding: 10px 10px; ">
+                                <input class="form-control me-2" type="search" placeholder="Pesquisar"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit"><i
+                                        class="bi bi-search"></i></button>
+                            </form>
+                        </div> -->
+                        <li class="nav-item  d-lg-none">
+                            <br>
+                            <p class="nav-link disabled">SIGA-NOS NAS REDES SOCIAIS</p>
+
+                            <ul>
+                                <div class="max-top">
+                                    <div id="footer-social-media">
+                                        <!-- instagram -->
+                                        <li>
+                                            <a href="https://www.instagram.com/crfap/" class="footer-link"
+                                                id="instagram">
+                                                <i class="bi bi-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <!-- facebook -->
+                                        <li>
+                                            <a href="https://www.facebook.com/crfap/" class="footer-link" id="facebook">
+                                                <i class="bi bi-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <!-- whatapp -->
+                                        <li>
+                                            <a href="https://api.whatsapp.com/send?phone=559684021457"
+                                                class="footer-link" id="whatapp">
+                                                <i class="bi bi-whatsapp"></i></bi>
+                                            </a>
+                                        </li>
+                                    </div>
+                                </div>
+                </div>
+                </ul>
+                </a>
+                </li>
+    </nav>
+    <!-- Navbar fim -->
+
+    <!-- Notícias -->
+
+
+    <!-- Notícias fim-->
+    <div class="container marketing">
+
+        <!-- conteudo 1 -->
+        <hr class="divider">
+        <!-- IMAGEM 1 -->
+
+        <div class="row featurette">
+
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                    src="/NOTÍCIAS/CRF-AP HOMENAGEIA FARMACÊUTICOS.webp" data-holder-rendered="true">
+
+            </div>
+
+            <div class="col-md-7">
+                <h2 class="featurette-heading">CRF-AP <span class="text-muted">HOMENAGEIA FARMACÊUTICOS DESTAQUES DE
+                        2021</span></h2>
+                <p class="lead">A entrega da Comenda do Mérito Farmacêuticos Rubim Brito Aronovitch, momento no qual o
+                    Conselho Regional de Farmácia do
+                    Amapá (CRF-AP) homenageia os profissionais que mais se destacaram dentro dos segmentos da profissão,
+                    foi recheada de
+                    muita emoção e alegria.
+
+                    A solenidade ocorreu na noite desta sexta-feira (23), no auditório da entidade, na região Central de
+                    Macapá, seguida de
+                    coquetel e confraternização no Espaço Nuance, na zona sul da capital amapaense.
+
+                    A presidente do CRF-AP, Dra. Liliane Macedo ressaltou a atuação ética dos homenageados e que o
+                    CRF-AP trabalha para, em
+                    2023, tornar a Comenda mais abrangente dentro das 138 áreas que o profissional formacêutico pode
+                    atuar.
+
+                    “Quando você faz o trabalho com respeito, dedicação e amor, o reconhecimento vem naturalmente, assim
+                    como ocorreu com
+                    esses profissionais no ano de 2021. Estamos todos orgulhosos do trabalho de vocês”, pontuou a
+                    presidente.
+
+                    O conselheiro federal Dr. Carlos André Oeiras parabenizou os agraciados com a honraria e destacou
+                    nominalmente o
+                    trabalho desenvolvido pelos homenageados.
+
+                    “Hoje é um dia para realmente se comemorar, pois é o reconhecimento de um trabalho que tem
+                    contribuído não apenas para o
+                    engrandecimento deles enquanto profissionais e da categoria, mas também para a melhoria do
+                    atendimento de saúde para a
+                    população do Amapá”, declarou o conselheiro federal.
+
+                    A cerimônia homenageou seis profissionais eleitos em plenária ordinária. Veja os eleitos, por
+                    categoria:
+
+                    Dra. Lorane Izabel da Silva Hage Melim – Farmacêutica do Ano de 2021
+
+                    A Farmacêutica do Ano de 2021 Dra. Lorane Izabel da Silva Hage Melim tem quase duas décadas de
+                    experiencia na profissão.
+                    Graduada pelo Centro Universitário do Pará (Cesupa), ela jamais parou de estudar e se especializar,
+                    por isso, é Doutora
+                    pela Faculdade de Ciências Farmacêuticas de Ribeirão Preto da Universidade de São Paulo (FCFRP/USP).
+
+                    “É uma honra ser eleita farmacêutica do ano. Ao longo de 19 anos já atuei como responsável técnica e
+                    proprietária de
+                    farmácia comunitária, fiscal da vigilância sanitária municipal, bioquímica, professora,
+                    pesquisadora, orientadora, ‘mãe
+                    científica’, gestora e coordendora do Projeto Reviver, o qual faz a diferença na vida de tantas
+                    pessoas: pacientes,
+                    familiares, acadêmicos e profissionais. Isso mostra a amplitude da nossa formação e que podemos
+                    escolher a área que mais
+                    nos identificamos, bem como, mudar ao longo do tempo, pois devemos fazer o que amamos”.
+
+                    Dra. Georgiania Rosa de Oliveira – Farmácia Hospitalar
+
+                    Depois de mais de 10 anos de formada, a Dra. Georgiania Oliveira acumula 7 anos de experiência como
+                    farmacêutica
+                    hospitalar na área de oncologia. Com o trabalho excepcional feito na orientação, dispensação,
+                    avaliação de prescrições e
+                    manipulação de medicamentos para pacientes oncológicos em Macapá rendeu a essa dedicada e obstinada
+                    profissional a
+                    Comenda do Mérito Farmacêutico Rubim Aronovitch 2021 na área de Farmácia Hospitalar. Também
+                    desenvolve seu
+                    profissionalismo na Oncoclínica Secco Jung, em Macapá.
+
+                    “É gratificante saber que exercemos um papel fundamental na melhoria da qualidade de vida e cura de
+                    nossos pacientes”.
+
+                    Dra. Andreia Santos Costa – Análises Clínicas
+
+                    O trabalho desenvolvido no Laboratório Central do Amapá (Lacen-AP) pela Dra. Andreia Santos Costa
+                    durante pandemia
+                    mereceu o destaque da categoria na Comenda do Mérito Farmacêutico Rubim Aronovitch, na área de
+                    Análises Clínicas.
+
+                    Seu desempenho no Lacen teve reconhecimento em nível Estadual pela implantação do RT-PCR no
+                    Laboratório de Biologia
+                    Molecular, sendo fundamental ao combate da pandemia do novo Coronavírus e, mais recentemente a
+                    implantação do
+                    diagnóstico molecular da Influenza, garantindo o monitoramento desses vírus respiratórios.
+
+                    Atuou, ainda, na preparação das equipes de laboratório e de saúde do Amapá para a coleta adequada de
+                    amostras para esses
+                    exames. Sendo assim, a Dra. Andreia Costa é conhecedora das áreas de vigilância e análises clínicas,
+                    contribuindo para o
+                    fortalecimento da ligação entre essas áreas.
+
+                    Ela é formada pelo Centro Universitário do Pará-CESUPA (2004) e sanitarista pelo Instituto Nacional
+                    de Controle de
+                    Qualidade em Saúde (INCQS/Fiocruz/RJ). Atuou no laboratório de análises clínicas da Unidade Básica
+                    de Saúde Dr. Marcelo
+                    Cândia pela Prefeitura Municipal de Macapá por 15 anos e por cinco anos no Laboratório de análises
+                    clínicas da Unidade
+                    de Pronto Atendimento da Zona Norte de Macapá pelo Governo do Estado do Amapá.
+
+                    Dr. José Carlos Tavares – Ensino e Pesquisa
+
+                    Doutor em Fármacos e Medicamentos pela Universidade de São Paulo e com estágio de pós-doutoramento
+                    no
+                    IFP-Berlin-Alemanha, José Carlos Tavares Carvalho é ex-Reitor da Universidade Federal do Amapá
+                    (2006-2014).
+
+                    Professor titular da Unifap, é dono de um currículo invejável. É membro titular da Academia Nacional
+                    de Farmácia,
+                    ocupando a cadeira no. 47, membro titular (correspondente estrangeiro) da Real Academia Nacional de
+                    Farmácia da Espanha.
+                    Foi coordenador do Comitê de Apoio a Políticas de Fitoterápicos da Farmacopeia Brasileira, da Rede
+                    Amazônica de
+                    Nanotecnologia Aplicada a Fármacos – RANAF, da Rede Amazônica de Pesquisa em Biofármacos –
+                    RAPBioFar. Pesquisador
+                    Visitante do College of Plant Sciences and Technology – Huazhong Agricultural University – Wuhan –
+                    China.
+
+                    A atuação nas áreas de farmácia e medicina, com ênfase em ensaios biológicos e estudos pré-clínico e
+                    clínico de novos
+                    medicamentos, e o trabalho como coordenador à frente do Laboratório de Pesquisa em Fármacos do
+                    Departamento de Ciências
+                    Biológicas e da Saúde da Unifap lhe credenciaram à Comenda do Mérito Farmacêutico.
+
+                    “Minha eterna gratidão aos colegas Farmacêuticos do Estado do Amapá. Ser escolhido para a Comenda do
+                    Mérito Farmacêutico
+                    do CRF-AP, na área de ensino e pesquisa, me deixa muito feliz. Pois, o ensino e a pesquisa fazem
+                    parte da minha vida.
+                    Através de uma vida dedicada a investigação cientifica, eu tenho colaborado para a resolução de
+                    agravos de saúde que
+                    afligem a população brasileira e mundial”.
+
+                    Dra. Letícia Passos – Saúde Pública
+
+                    Formada pela Faculdade IMMES de Macapá, a Dra. Letícia Passos foi escolhida na área de Saúde Pública
+                    pela sua atuação em
+                    unidades do Estado do Amapá e do município de Porto Grande, sua terra natal. Mas foi como
+                    responsável técnica pela
+                    Farmácia do Centro da Covid-19 de Porto Grande, onde ajudou a salvar centenas de vidas, que o seu
+                    trabalho ganhou
+                    notoriedade.
+
+                    “É com muita alegria que todos os dias de minha vida eu durmo e acordo sabendo que fiz o meu melhor
+                    na vida dos meus
+                    pacientes e das pessoas ao meu redor. Ser Farmacêutica é ter Amor e empatia ao próximo. É a
+                    profissão que Deus escolheu
+                    para mim e ele só nos dar o melhor”
+
+                    Dra. Marta Caroline Machado de Lima Araújo – Farmácia Comunitária
+
+                    Formada pelo Centro Universitário do Pará – Cesupa (2011), a Dra. Marta Caroline foi escolhida na
+                    área de Farmácia
+                    Comunitária de 2021, onde já atua há 10 anos.
+
+                    “Desde a minha formação, sempre atuei à frente de drogarias e neste tempo desempenhei principalmente
+                    a atenção
+                    farmacêutica, visando aliviar os problemas de saúde da população e promovendo educação em saúde para
+                    todos”.
+
+                </p>
+                <br>
+                <p class="mb-0">
+                    <a href="#">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Voltar ao topo</font>
+                        </font>
+                    </a>
+                </p>
+                <br>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    </main>
+
+    
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- item footer 1 -->
+                <div class="footer-col">
+                    <h4>Institucional</h4>
+                    <ul>
+                        <li><a id="footer-style" href="/NOTÍCIAS/Footer/Quem somos.html">Quem somos</a></li>
+                        <li><a id="footer-style" href="#">Estrutura Organizacional</a></li>
+                        <li><a id="footer-style" href="#">Comoposições</a></li>
+                        <li><a id="footer-style" href="/NOTÍCIAS/Footer/Comissões.html">Comissões</a></li>
+                        <li><a id="footer-style" href="/NOTÍCIAS/Footer/Historia.html">História</a></li>
+    
+                    </ul>
+                </div>
+                <!-- item footer 2 -->
+                <div class="footer-col">
+                    <h4>Área do Cliente</h4>
+                    <ul>
+                        <li><a id="footer-style"
+                                href="https://crfap-crf-em-casa.cisantec.com.br/crf-em-casa/login.jsf">CRF-AP-EM-CASA</a>
+                        </li>
+                        <li><a id="footer-style" href="https://api.whatsapp.com/send?phone=559684021457">Assitente
+                                Virtual</a></li>
+                        <li><a id="footer-style"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSeUVHpHKryE-HS5p86kgZsbS4kPUMGdJizu4kmOfX_MkrKnsw/viewform">Academia
+                                Virtual </a></li>
+                        <!-- <li><a id="footer-style" href="">Assinar</a></li> -->
+                    </ul>
+                </div>
+                <!-- item footer 3 -->
+                <div class="footer-col">
+                    <h4>Atentimento</h4>
+                    <ul>
+                        <li><a id="footer-style" href="https://crfap.org.br/fale-conosco/">Fale Conosco</a></li>
+                        <li><a id="footer-style" href="https://crfap.org.br/palavra-do-presidente/">Palavra
+                                Presidente</a></li>
+                        <li><a id="footer-style" href="#">Servições pessoais</a></li>
+                        <li><a id="footer-style"
+                                href="https://crf-ap.implanta.net.br/portaltransparencia/#publico/PerguntasFrequentes">FAQ</a>
+                        </li>
+    
+                    </ul>
+                </div>
+                <!-- item footer 4 -->
+                <div class="footer-col">
+                    <h4>Siga-Nos</h4>
+                    <div class="social-links">
+                        <!-- facebook icones -->
+                        <a href="https://www.facebook.com/crfap/"><i class="fab fa-facebook-f"></i></a>
+                        <!-- facebook icones -->
+                        <a href="https://www.instagram.com/crfap/"><i class="fab fa-instagram"></i></a>
+                        <!-- facebook icones -->
+                        <a href="https://www.youtube.com/channel/UCO5_dC0ecIo4jGdegbXI6Pg"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- fim do Rodapé -->
+    <div id="footer-copyright">
+        <p>COPYRIGHT &#169 2024<a href="https://crfap.org.br/"> Conselho Regional de Farmácia do Amapá</a>
+            Todos os Diretos Reservados <br>
+            Tema:<a href="https://getbootstrap.com/"> getbootstrap.com</a></p>
+    </div>
+    </div>
+    </footer>
+    <!-- Fim do Rodapé -->
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
